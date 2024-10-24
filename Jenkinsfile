@@ -7,7 +7,7 @@ pipeline {
             name: 'SCAN_TYPE'
         )
         string(
-            defaultValue: "http://localhost:8080",  // Utilisez l'URL de l'application exposée
+            defaultValue: "http://localhost:8989",  // Utilisez l'URL de l'application exposée
             description: 'Target URL to scan',
             name: 'TARGET'
         )
